@@ -4,7 +4,8 @@ import 'package:url_launcher/url_launcher.dart' as launcher;
 
 const url = 'https://linktr.ee/fluttering';
 const email = 'vcontractor17@gmail.com';
-
+const linkedin = 'https://www.linkedin.com/in/vaidarbhi-contractor/';
+const twitter = 'https://twitter.com/VaidarbhiContra';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -108,6 +109,14 @@ class Home extends StatelessWidget {
                   );
                 }
               },
+            ),
+            InfoCard(
+              text: linkedin,
+              icon: Icons.mobile_screen_share,
+            ),
+            InfoCard(
+              text: twitter,
+              icon: Icons.message,
             ),
           ],
         ),
