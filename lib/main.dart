@@ -113,10 +113,32 @@ class Home extends StatelessWidget {
             InfoCard(
               text: linkedin,
               icon: Icons.mobile_screen_share,
+              onPressed: () async {
+                if (await launcher.canLaunch(linkedin)) {
+                  await launcher.launch(linkedin);
+                } else {
+                  _showDialog(
+                    context,
+                    title: 'Sorry',
+                    msg: 'URL can not be opened. Please try again!',
+                  );
+                }
+              },
             ),
             InfoCard(
               text: twitter,
               icon: Icons.message,
+              onPressed: () async {
+                if (await launcher.canLaunch(twitter)) {
+                  await launcher.launch(twitter);
+                } else {
+                  _showDialog(
+                    context,
+                    title: 'Sorry',
+                    msg: 'URL can not be opened. Please try again!',
+                  );
+                }
+              },
             ),
           ],
         ),
