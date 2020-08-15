@@ -8,6 +8,6 @@ And you reach me through mention links. :woman_technologist:
 
 [LinkedIn](https://www.linkedin.com/in/vaidarbhi-contractor/)
 
-[Twitter](https://twitter.com/VaidarbhiContra)
+[Twitter](https://twitter.com/vaidarbhi971)
 
 <img src="image/profile.png" width=200>
